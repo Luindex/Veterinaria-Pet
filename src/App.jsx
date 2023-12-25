@@ -39,19 +39,19 @@ function App() {
     <Header 
     />
 
-    <div className= "mt-12 md:flex">
-    <Formulario
-    pacientes = {pacientes}
-    setpacientes ={setpacientes}
-    paciente = {paciente} //retorna los datos al formulario
-    setpaciente = {setpaciente}
-    />
-    <ListadoPacientes
-      pacientes = {pacientes}//array
-      setpaciente = {setpaciente}//obj
-      eliminarPaciente = {eliminarPaciente}
-    />
-    </div>
+     <div className= "mt-12 md:flex">
+     <Formulario
+      pacientes = {pacientes}
+      setpacientes ={setpacientes}
+      paciente = {paciente} //retorna los datos al formulario
+      setpaciente = {setpaciente}
+     />
+     <ListadoPacientes
+       pacientes = {pacientes}//array
+       setpaciente = {setpaciente}//obj
+       eliminarPaciente = {eliminarPaciente}
+     />
+     </div>
     
    </div>
   )

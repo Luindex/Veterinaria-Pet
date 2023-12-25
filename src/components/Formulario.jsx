@@ -52,7 +52,6 @@ const Formulario = ({pacientes, setpacientes, paciente, setpaciente}) => {
             Email,
             fecha,
             Sintomas,
-            
         }
 
         if(paciente.id){
